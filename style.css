@@ -1,0 +1,93 @@
+body{
+    background-color: #ECEBDE;
+    /* color: rgb(255, 255, 255); */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: center;
+    
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    margin:30px;
+    font-family: "Lobster",cursive;
+    /* text-shadow: 1px 0 #000000; */
+    font-size: 5rem;
+    color:#3E1E68;
+    /* color:#4F200D; */
+    cursor: pointer;
+    /* color:darkblue; */
+
+}
+footer{
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-family: "Indie Flower",cursive;
+}
+.w{
+    background-image: url("./assets/crash.png");
+ }
+.a{
+    background-image: url("./assets/kick.png");
+ }
+.s{
+    background-image: url("./assets/snare.png");
+ }
+.d{
+    background-image: url("./assets/tom1.png");
+ }
+.j{
+    background-image: url("./assets/tom2.png");
+ }
+.k{
+    background-image: url("./assets/tom3.png");
+ }
+.l{
+      background-image: url("./assets/tom4.png");
+ }
+.set{
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+ }
+ .gameover
+ {
+    background-color: red;
+    opacity: 0.8;
+ }
+ .pressed
+ {
+    box-shadow: 0 3px 4px 0 #DBDFa3;
+    opacity: 0.5;
+ }
+ .red{
+    color:red
+ }
+.drum{
+    outline: none;
+    border: 3px solid #A08963;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    color: #3E3F29;
+    text-shadow: 1px 0 #000000;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    /* background-color: white; */
+    background-size: cover;   /* makes image cover the button*/
+    background-position: center; /* centers the image*/
+    background-repeat: no-repeat; /*prevents tiling */
+    width: 150px;  /* explicitly set button width */
+    height: 150px; /* explicitly set button height */
+
+}
